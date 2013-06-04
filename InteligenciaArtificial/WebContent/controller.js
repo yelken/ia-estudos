@@ -7,13 +7,43 @@ function treinarRedeNeural() {
 
 		},
 		error : function(retorno) {
+			$("#console").css('display', 'none');
 			alert(retorno);
 		},
 		success : function(retorno) {
 			alert('Rede neural treinada com sucesso');
-			$("#console").html(retorno);
+			$("#console").css('display', '');
 		}
 	});
+}
+
+function limpar() {
+	$("#console").css('display', 'none');	
+	$("#x1").attr("checked",false);
+	$("#x2").attr("checked",false);
+	$("#x3").attr("checked",false);
+	$("#x4").attr("checked",false);
+	$("#x5").attr("checked",false);
+	$("#x6").attr("checked",false);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",false);
+	$("#x12").attr("checked",false);
+	$("#x13").attr("checked",false);
+	$("#x14").attr("checked",false);
+	$("#x15").attr("checked",false);
+	$("#x16").attr("checked",false);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",false);
+	$("#x21").attr("checked",false);
+	$("#x22").attr("checked",false);
+	$("#x23").attr("checked",false);
+	$("#x24").attr("checked",false);
+	$("#x25").attr("checked",false);
 }
 
 function reconhecerCaracter() {
@@ -201,6 +231,19 @@ $(function() {
 	
 	$("#reconhecer").click(function() {
 		reconhecerCaracter();
+	});
+	
+	$("#limpar").click(function() {
+		limpar();
+	});
+	
+	$("body").on({
+	    ajaxStart: function() { 
+	        $(this).addClass("loading"); 
+	    },
+	    ajaxStop: function() { 
+	        $(this).removeClass("loading"); 
+	    }    
 	});
 
 });
