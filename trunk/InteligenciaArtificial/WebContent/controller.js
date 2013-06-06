@@ -17,6 +17,233 @@ function treinarRedeNeural() {
 	});
 }
 
+
+function carregarA() {
+	$("#x1").attr("checked",true);
+	$("#x2").attr("checked",true);
+	$("#x3").attr("checked",true);
+	$("#x4").attr("checked",true);
+	$("#x5").attr("checked",true);
+	$("#x6").attr("checked",true);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",true);
+	$("#x11").attr("checked",true);
+	$("#x12").attr("checked",true);
+	$("#x13").attr("checked",true);
+	$("#x14").attr("checked",true);
+	$("#x15").attr("checked",true);
+	$("#x16").attr("checked",true);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",true);
+	$("#x21").attr("checked",true);
+	$("#x22").attr("checked",false);
+	$("#x23").attr("checked",false);
+	$("#x24").attr("checked",false);
+	$("#x25").attr("checked",true);
+}
+
+function carregarS() {
+	$("#x1").attr("checked",false);
+	$("#x2").attr("checked",true);
+	$("#x3").attr("checked",true);
+	$("#x4").attr("checked",true);
+	$("#x5").attr("checked",false);
+	$("#x6").attr("checked",true);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",false);
+	$("#x12").attr("checked",true);
+	$("#x13").attr("checked",true);
+	$("#x14").attr("checked",false);
+	$("#x15").attr("checked",false);
+	$("#x16").attr("checked",false);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",true);
+	$("#x20").attr("checked",false);
+	$("#x21").attr("checked",true);
+	$("#x22").attr("checked",true);
+	$("#x23").attr("checked",true);
+	$("#x24").attr("checked",false);
+	$("#x25").attr("checked",false);
+}
+
+function carregar5() {
+	$("#x1").attr("checked",true);
+	$("#x2").attr("checked",true);
+	$("#x3").attr("checked",true);
+	$("#x4").attr("checked",true);
+	$("#x5").attr("checked",true);
+	$("#x6").attr("checked",true);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",true);
+	$("#x12").attr("checked",true);
+	$("#x13").attr("checked",true);
+	$("#x14").attr("checked",true);
+	$("#x15").attr("checked",true);
+	$("#x16").attr("checked",false);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",true);
+	$("#x21").attr("checked",true);
+	$("#x22").attr("checked",true);
+	$("#x23").attr("checked",true);
+	$("#x24").attr("checked",true);
+	$("#x25").attr("checked",true);
+}
+
+function carregar1() {
+	$("#x1").attr("checked",false);
+	$("#x2").attr("checked",false);
+	$("#x3").attr("checked",true);
+	$("#x4").attr("checked",false);
+	$("#x5").attr("checked",false);
+	$("#x6").attr("checked",false);
+	$("#x7").attr("checked",true);
+	$("#x8").attr("checked",true);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",false);
+	$("#x12").attr("checked",false);
+	$("#x13").attr("checked",true);
+	$("#x14").attr("checked",false);
+	$("#x15").attr("checked",false);
+	$("#x16").attr("checked",false);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",true);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",false);
+	$("#x21").attr("checked",false);
+	$("#x22").attr("checked",true);
+	$("#x23").attr("checked",true);
+	$("#x24").attr("checked",true);
+	$("#x25").attr("checked",false);
+	
+}
+
+
+function carregarG() {
+	$("#x1").attr("checked",true);
+	$("#x2").attr("checked",true);
+	$("#x3").attr("checked",true);
+	$("#x4").attr("checked",true);
+	$("#x5").attr("checked",true);
+	$("#x6").attr("checked",true);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",true);
+	$("#x12").attr("checked",false);
+	$("#x13").attr("checked",true);
+	$("#x14").attr("checked",true);
+	$("#x15").attr("checked",true);
+	$("#x16").attr("checked",true);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",true);
+	$("#x21").attr("checked",true);
+	$("#x22").attr("checked",true);
+	$("#x23").attr("checked",true);
+	$("#x24").attr("checked",true);
+	$("#x25").attr("checked",true);
+}
+
+function carregarJ() {
+	$("#x1").attr("checked",false);
+	$("#x2").attr("checked",false);
+	$("#x3").attr("checked",false);
+	$("#x4").attr("checked",true);
+	$("#x5").attr("checked",false);
+	$("#x6").attr("checked",false);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",true);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",false);
+	$("#x12").attr("checked",false);
+	$("#x13").attr("checked",false);
+	$("#x14").attr("checked",true);
+	$("#x15").attr("checked",false);
+	$("#x16").attr("checked",false);
+	$("#x17").attr("checked",true);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",true);
+	$("#x20").attr("checked",false);
+	$("#x21").attr("checked",false);
+	$("#x22").attr("checked",true);
+	$("#x23").attr("checked",true);
+	$("#x24").attr("checked",true);
+	$("#x25").attr("checked",false);
+}
+
+function carregarK() {
+	$("#x1").attr("checked",true);
+	$("#x2").attr("checked",false);
+	$("#x3").attr("checked",false);
+	$("#x4").attr("checked",true);
+	$("#x5").attr("checked",false);
+	$("#x6").attr("checked",true);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",true);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",true);
+	$("#x12").attr("checked",true);
+	$("#x13").attr("checked",false);
+	$("#x14").attr("checked",false);
+	$("#x15").attr("checked",false);
+	$("#x16").attr("checked",true);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",true);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",false);
+	$("#x21").attr("checked",true);
+	$("#x22").attr("checked",false);
+	$("#x23").attr("checked",false);
+	$("#x24").attr("checked",true);
+	$("#x25").attr("checked",false);
+}
+
+function carregarL() {
+	$("#x1").attr("checked",true);
+	$("#x2").attr("checked",false);
+	$("#x3").attr("checked",false);
+	$("#x4").attr("checked",false);
+	$("#x5").attr("checked",false);
+	$("#x6").attr("checked",true);
+	$("#x7").attr("checked",false);
+	$("#x8").attr("checked",false);
+	$("#x9").attr("checked",false);
+	$("#x10").attr("checked",false);
+	$("#x11").attr("checked",true);
+	$("#x12").attr("checked",false);
+	$("#x13").attr("checked",false);
+	$("#x14").attr("checked",false);
+	$("#x15").attr("checked",false);
+	$("#x16").attr("checked",true);
+	$("#x17").attr("checked",false);
+	$("#x18").attr("checked",false);
+	$("#x19").attr("checked",false);
+	$("#x20").attr("checked",false);
+	$("#x21").attr("checked",true);
+	$("#x22").attr("checked",true);
+	$("#x23").attr("checked",true);
+	$("#x24").attr("checked",true);
+	$("#x25").attr("checked",false);
+}
+
 function limpar() {
 	$("#console").css('display', 'none');	
 	$("#x1").attr("checked",false);
@@ -235,6 +462,38 @@ $(function() {
 	
 	$("#limpar").click(function() {
 		limpar();
+	});
+	
+	$("#a").click(function() {
+		carregarA();
+	});
+	
+	$("#s").click(function() {
+		carregarS();
+	});
+	
+	$("#5").click(function() {
+		carregar5();
+	});
+	
+	$("#1").click(function() {
+		carregar1();
+	});
+	
+	$("#g").click(function() {
+		carregarG();
+	});
+	
+	$("#j").click(function() {
+		carregarJ();
+	});
+	
+	$("#k").click(function() {
+		carregarK();
+	});
+	
+	$("#l").click(function() {
+		carregarL();
 	});
 	
 	$("body").on({

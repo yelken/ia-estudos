@@ -94,9 +94,6 @@ body.loading .modal {
 
 <div id="header">
           <div class="wrap">
-               <div class="logo">
-                    <a href="#"><img src="logo.png"></a>
-               </div>
                	<p>Inteligencia Artificial</p>
 				<p>Trabalho para obtenção de nota da segunda unidade</p>
 				<p>Professor Cláudio Silva</p>
@@ -136,12 +133,21 @@ body.loading .modal {
 <input type="checkbox" id="x24" value="1" class="regular-checkbox big-checkbox">
 <input type="checkbox" id="x25" value="1" class="regular-checkbox big-checkbox">
 </div>
+<input type="button" id="reconhecer" value="Reconhecer" />
+<input type="button" id="treinar" value="Treinar rede neural" />
+<input type="button" id="limpar" value="Limpar" />
+<br>
+
+<input type="button" id="a" value="A" />
+<input type="button" id="s" value="S" />
+<input type="button" id="5" value="5" />
+<input type="button" id="1" value="1" />
+<input type="button" id="g" value="G" />
+<input type="button" id="j" value="J" />
+<input type="button" id="k" value="k" />
+<input type="button" id="l" value="L" />
 </center>
 <br>
-<br>
-<input type="button" id="reconhecer" value="Reconhecer" /><br>
-<input type="button" id="treinar" value="Treinar rede neural" /><br>
-<input type="button" id="limpar" value="Limpar" />
 
 <center><h3>Console</h3></center>
 <div id="console" style="display: none">Neuronio 1: 0
